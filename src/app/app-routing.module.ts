@@ -8,9 +8,19 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'auth',
     pathMatch: 'full'
   },
+  {
+    path: 'auth',
+    loadChildren: () => import('./pages/auth/auth.module').then( m => m.AuthPageModule)
+  },
+  {
+    path: 'card-coupon',
+    loadChildren: () => import('./card-coupon/card-coupon.module').then( m => m.CardCouponPageModule)
+  },
+  
+ 
 ];
 
 @NgModule({

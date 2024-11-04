@@ -1,0 +1,16 @@
+
+<app-header title="Cupon"></app-header>
+<ion-content [fullscreen]="true">
+
+<div class="ion-text-center ion-margin" *ngFor="let item of coupons">
+
+  <img [src]="item.img" alt="">
+  <ion-card class="ion-padding">
+    
+    <qrcode [qrdata]="QRCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+  </ion-card>
+  <ion-chip color="danger" mode="ios" outline="true">
+    <ion-label>{{item.coupon}}</ion-label>
+  </ion-chip>
+</div>
+</ion-content>

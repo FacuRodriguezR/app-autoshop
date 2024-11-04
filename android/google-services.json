@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572520446720",
+    "project_id": "appautoshop-11403",
+    "storage_bucket": "appautoshop-11403.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572520446720:android:e1f4e09837a0b5d3d411e5",
+        "android_client_info": {
+          "package_name": "com.app.autoshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572520446720-cm9nuuqckglbf3n8b6t0kujtoin8167v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChiNm65nQIWBgKBLX1CB2lY8bx_rArwMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572520446720-cm9nuuqckglbf3n8b6t0kujtoin8167v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
